@@ -4,14 +4,18 @@ class Anagram
   attr_accessor :word
 
   def initialize(word)
-    
+    @word = word 
   end 
   
   
-  def match(word)
-    Array.new 
+  def match(array)
+    array = Array.new 
     
-    detector = Anagram.new('ba')
+    anagram = @word.split("")
+    
+    binding.pry 
+    
+    #detector = Anagram.new('ba')
     
     
   end 
