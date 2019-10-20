@@ -9,14 +9,17 @@ class Anagram
   
   
   def match(array)
+    
+    @matches = [] 
     @anagram = @word.split("")
     
     
     array.each do |item| 
       @match = item.split("")
       
-       
-      @match.sort == @anagram.sort 
+      
+     if  @match.sort == @anagram.sort
+       @matches << @match.join
     end
     
     
