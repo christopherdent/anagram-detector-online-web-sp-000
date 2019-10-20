@@ -16,11 +16,9 @@ class Anagram
     
     array.each do |item| 
       @match = item.split("")
-      
-      
-     if  @match.sort == @anagram.sort
-       @matches << @match.join
-    end
+      if  @match.sort == @anagram.sort
+        @matches << @match.join
+      end
   end 
     
     
