@@ -9,7 +9,7 @@ class Anagram
   
   
   def match(word)
-    
+    Array.new 
   end 
   
 end 
