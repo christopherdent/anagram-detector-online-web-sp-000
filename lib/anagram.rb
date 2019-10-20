@@ -21,7 +21,7 @@ class Anagram
      if  @match.sort == @anagram.sort
        @matches << @match.join
     end
-    
+  end 
     
     
     #detector = Anagram.new('ba')
