@@ -12,15 +12,13 @@ class Anagram
     @anagram = @word.split("")
     
     
-    
     array.each do |item| 
-       
       @match = item.split("")
+      
+      binding.pry 
       @match.sort == @anagram.sort 
     end
     
-    
-
     
     
     #detector = Anagram.new('ba')
