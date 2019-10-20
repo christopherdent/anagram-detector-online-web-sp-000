@@ -13,6 +13,8 @@ class Anagram
     
     anagram = @word.split("")
     
+    anagram.sort 
+    
     binding.pry 
     
     #detector = Anagram.new('ba')
