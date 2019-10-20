@@ -20,11 +20,11 @@ class Anagram
         @matches << @match.join
       end
   end 
-    
-    
+    @matches 
+ end   
     #detector = Anagram.new('ba')
     
     
-  end 
+   
   
 end 
