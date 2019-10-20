@@ -10,14 +10,14 @@ class Anagram
   
   def match(array)
     array.each do |item| 
-      
-    
+      binding.pry 
+    end
     anagram = @word.split("")
     
     
     anagram.sort 
     
-    binding.pry 
+    
     
     #detector = Anagram.new('ba')
     
