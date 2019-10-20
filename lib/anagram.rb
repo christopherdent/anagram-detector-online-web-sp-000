@@ -9,7 +9,11 @@ class Anagram
   
   
   def match(array)
+      anagram = @word.split("")
     
+    
+    anagram.sort 
+      
     
     
     array.each do |item| 
@@ -18,11 +22,7 @@ class Anagram
     end
     
     
-    anagram = @word.split("")
-    
-    
-    anagram.sort 
-    
+
     
     
     #detector = Anagram.new('ba')
