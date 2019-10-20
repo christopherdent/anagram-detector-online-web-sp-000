@@ -10,6 +10,10 @@ class Anagram
   
   def match(word)
     Array.new 
+    
+    detector = Anagram.new('ba')
+    
+    
   end 
   
 end 
