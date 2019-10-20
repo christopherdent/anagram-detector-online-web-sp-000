@@ -14,7 +14,7 @@ class Anagram
     
     
     array.each do |item| 
-      binding.pry 
+       
       @match = item.split("")
       @match.sort == @anagram.sort 
     end
