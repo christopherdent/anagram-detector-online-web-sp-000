@@ -9,9 +9,15 @@ class Anagram
   
   
   def match(array)
+    
+    
+    
     array.each do |item| 
       binding.pry 
+      @match = item.split("")
     end
+    
+    
     anagram = @word.split("")
     
     
